@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+$specialties@extends('layouts.admin')
 @section('title','Especialidades medicas')
 @section('style')
 <!-- SweetAlert2 -->
@@ -6,7 +6,7 @@
 <!-- DataTables -->
 {!! Html::style('adminlte/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') !!}
 {!! Html::style('adminlte/plugins/datatables-responsive/css/responsive.bootstrap4.min.css') !!}
-{!! Html::style('adminlte/plugins/datatables-buttons/css/buttons.bootstrap4.min.css') !!}    
+{!! Html::style('adminlte/plugins/datatables-buttons/css/buttons.bootstrap4.min.css') !!}
 @endsection
 @section('content')
 <div class="content-wrapper">
@@ -50,7 +50,7 @@
                         <a href="#" class="dropdown-item">Separated link</a>  --}}
                       </div>
                     </div>
-                    
+
                   </div>
                 </div>
                 <!-- /.card-header -->
