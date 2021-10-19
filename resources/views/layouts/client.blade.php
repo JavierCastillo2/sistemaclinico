@@ -36,7 +36,7 @@
                 <div class="row h-100">
                     <div class="col-12 h-100">
                         <div class="h-100 d-md-flex justify-content-between align-items-center">
-                            <p>Bienvenido a<span>MediFix</span></p>
+                            <p><span>MediFix</span></p>
                             <p>Horario de apertura: de lunes a domingo de 8 a.m. a 8 p.m. Contacto:<span>+12-823-611-8721</span>
                             </p>
                         </div>
@@ -161,7 +161,7 @@
                     <div class="col-12 col-sm-6 col-xl-3">
                         <div class="footer-widget-area">
                             <div class="footer-logo">
-                                <img src="medical/img/core-img/logo.png" style="width: 20px" alt="">
+                                <img src="" alt="">
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                                 tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet,
