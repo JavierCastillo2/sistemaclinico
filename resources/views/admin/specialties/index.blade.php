@@ -1,4 +1,4 @@
-$specialties@extends('layouts.admin')
+@extends('layouts.admin')
 @section('title','Especialidades medicas')
 @section('style')
 <!-- SweetAlert2 -->
