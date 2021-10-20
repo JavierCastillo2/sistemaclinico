@@ -20,7 +20,7 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
-            <a href="{{route('users.index')}}" class="nav-link 
+            <a href="{{route('users.index')}}" class="nav-link
               {!! active_class(route('users.index')) !!}
               ">
                 <i class="nav-icon fas fa-users"></i>
@@ -30,7 +30,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{route('specialties.index')}}" class="nav-link 
+            <a href="{{route('specialties.index')}}" class="nav-link
               {!! active_class(route('specialties.index')) !!}
               ">
                 <i class="nav-icon fas fa-user-tag"></i>
@@ -42,7 +42,7 @@
 
           @if (auth()->user()->hasRole('Doctor'))
           <li class="nav-item">
-            <a href="{{route('doctor.appointments', auth()->user())}}" class="nav-link 
+            <a href="{{route('doctor.appointments', auth()->user())}}" class="nav-link
             {!! active_class(route('doctor.appointments', auth()->user())) !!}
             ">
               <i class="nav-icon far fa-calendar-check"></i>
@@ -50,10 +50,10 @@
                 Mis citas
               </p>
             </a>
-          </li> 
+          </li>
           @else
           <li class="nav-item">
-            <a href="{{route('all.appointments')}}" class="nav-link 
+            <a href="{{route('all.appointments')}}" class="nav-link
             {!! active_class(route('all.appointments')) !!}
             ">
               <i class="nav-icon far fa-calendar-check"></i>

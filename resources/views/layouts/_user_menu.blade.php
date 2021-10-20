@@ -30,7 +30,7 @@
       </li>  --}}
       <!-- Menu Footer-->
       <li class="user-footer">
-        <a 
+        <a
         @if (Auth::user()->hasRole('Patient'))
         href="{{route('patient.index')}}"
         @else

@@ -93,14 +93,14 @@
                     </tbody>
                   </table>
                 </div>
-                <form method="POST" action="{{ route('specialties.destroy', $specialty) }}" name="delete_form">
+{{--                <form method="POST" action="{{ route('specialties.destroy', $specialty) }}" name="delete_form">--}}
+{{--                    {{ csrf_field() }}--}}
+{{--                    {{ method_field('DELETE') }}--}}
+{{--                </form>--}}
+                  <form method="POST" action="{{ route('specialties.destroy', $specialty) }}" name="delete_form">
                     {{ csrf_field() }}
                     {{ method_field('DELETE') }}
                 </form>
-                {{--  <form method="POST" action="{{ route('specialties.destroy', $specialty) }}" name="delete_form">
-                    {{ csrf_field() }}
-                    {{ method_field('DELETE') }}
-                </form>  --}}
                 <!-- /.card-body -->
             </div>
             <!-- /.card -->
