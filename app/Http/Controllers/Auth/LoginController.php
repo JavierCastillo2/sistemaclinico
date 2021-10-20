@@ -31,7 +31,7 @@ class LoginController extends Controller
         if (auth()->user()->hasRole('Patient')) {
             return route('patient.index');
         } else {
-           return route('home');
+           return route('users.index');
         }
     }
     /**
